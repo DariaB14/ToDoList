@@ -7,21 +7,20 @@
 * DB: MySQL, Hibernate ORM, HikariCP 
 * Frontend: Thymeleaf, Bootstrap 5
 * Сборка: Maven
-* Логирование: Log4j, SLF4J
 * Прочее: Lombok,Apache Tomcat 9
 
 ## Архитектурные особенности
 * MVC: Четкое разделение Model, View, Controller
 * Многоуровневая архитектура: Controller → Service → DAO → DB
 * Внедрение зависимостей: Spring IoC
-* Транзакционность: @EnableTransactionManagement
+* Транзакционность
 * ORM: Hibernate для маппинга сущностей
 
 ## Настройки БД: 
 1. Запустите MySQL Server
 2. Создайте БД:  
    CREATE DATABASE todo;
-3. Измените параметры подключения к БД в src/main/resources/application.properties. 
+3. Измените параметры подключения к БД в src/main/resources/application.properties 
 
 ## Запуск:
 1. Импортируйте как Maven-проект в IntelliJ IDEA, Eclipse и др.
